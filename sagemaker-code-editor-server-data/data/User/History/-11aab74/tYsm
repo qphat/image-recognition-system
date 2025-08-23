@@ -12,8 +12,5 @@ cdk.out
 .npm/
 
 # Thư mục của VS Code
-.vscode-server-oss/
+.vscode-server-os/
 
-./cdk
-
-.ssh/

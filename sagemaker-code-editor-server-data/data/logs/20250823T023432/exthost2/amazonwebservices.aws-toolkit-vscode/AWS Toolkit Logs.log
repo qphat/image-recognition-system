@@ -45,3 +45,5 @@
 2025-08-23 03:47:26.457 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
 2025-08-23 03:47:26.457 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
 2025-08-23 03:52:11.933 [info] telemetry: sent batch (size=2)
+2025-08-23 03:57:26.491 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 03:57:26.491 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.

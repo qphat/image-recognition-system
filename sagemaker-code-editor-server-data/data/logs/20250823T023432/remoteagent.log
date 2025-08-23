@@ -79,3 +79,5 @@
 2025-08-23 03:42:25.598 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
 2025-08-23 03:47:26.612 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
 2025-08-23 03:48:43.449 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-08-23 03:52:27.830 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
+2025-08-23 03:57:28.864 [warning] [aws-toolkit-vscode]: Couldn't find message for key AWS.command.apig.copyUrl.
