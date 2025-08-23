@@ -1,0 +1,639 @@
+2025-08-23 02:37:10.224 [info] Log level: info, beta=false
+2025-08-23 02:37:10.224 [info] Telemetry product: Amazon Q For VS Code
+2025-08-23 02:37:10.328 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-08-23 02:37:10.466 [info] Telemetry clientId: 96c369f9-03bf-4c24-88b7-029a50b9bb2d
+2025-08-23 02:37:10.467 [info] Telemetry sessionId: 548b6842-75a8-4267-9b67-b3df9bca5cbf
+2025-08-23 02:37:10.740 [info] auth: Updating connection state of ecs:instance to authenticating
+2025-08-23 02:37:10.740 [info] codewhisperer: connection changed to authenticating: ecs:instance
+2025-08-23 02:37:10.820 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 02:37:10.820 [info] codewhisperer: active connection changed
+2025-08-23 02:37:10.820 [info] secondaryAuth: connectionId=ecs:instance, connectionStatus=valid
+2025-08-23 02:37:10.820 [info] codewhisperer: connection states
+    connection isValid=true,
+    connection isValidCodewhispererCoreConnection=true,
+    connection isExpired=false,
+    secondaryAuth isExpired=false,
+    connection isUndefined=false
+2025-08-23 02:37:11.531 [info] codewhisperer: active connection changed
+2025-08-23 02:37:11.531 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: Error: connect EINVAL 169.254.169.254:80 - Local (0.0.0.0:0) [EINVAL]
+2025-08-23 02:37:12.252 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:37:12.252 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:37:12.252 [info] Trying to register toolkit callback. Toolkit is installed,
+                        toolkit activated = false
+2025-08-23 02:37:12.252 [error] CodeWhisperer: Error when fetching feature configs Error: Connection is not an SSO connection
+2025-08-23 02:37:12.252 [error] CodeWhisperer: Error when fetching feature configs Error: Connection is not an SSO connection
+2025-08-23 02:37:23.182 [info] Trying to register toolkit callback. Toolkit is installed,
+                        toolkit activated = false
+2025-08-23 02:37:23.182 [info] toolkitApi: Registering callbacks of toolkit api
+2025-08-23 02:37:23.762 [info] initialized 'submitFeedback' command with default feedback id: Amazon Q
+2025-08-23 02:37:24.027 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 02:37:24.278 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 02:37:24.780 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 02:37:28.779 [info] using amazonqWorkspaceLsp service configuration: default
+2025-08-23 02:37:37.935 [info] lsp: Finished setting up LSP server
+2025-08-23 02:37:38.230 [info] Command: (not started) [/home/sagemaker-user/.cache/aws/toolkits/language-servers/AmazonQ-Workspace/0.1.47/node-linux-x64 /home/sagemaker-user/.cache/aws/toolkits/language-servers/AmazonQ-Workspace/0.1.47/qserver-linux-x64/qserver/lspServer.js --nolazy --preserve-symlinks --stdio]
+2025-08-23 02:37:38.408 [info] [Info  - 2:37:38 AM] LSP server starts
+2025-08-23 02:37:38.570 [info] [Info  - 2:37:38 AM] Loaded model from /home/sagemaker-user/.cache/aws/toolkits/language-servers/AmazonQ-Workspace/0.1.47/qserver-linux-x64/qserver
+2025-08-23 02:37:38.794 [info] [Warn  - 2:37:38 AM] Unknown tokenizer class "CodeSageTokenizer", attempting to construct from base class.
+2025-08-23 02:37:38.795 [info] [Info  - 2:37:38 AM] Using number of intra-op threads: 1
+2025-08-23 02:37:39.178 [info] [Info  - 2:37:39 AM] Embedding provider initialized.
+2025-08-23 02:37:39.198 [info] amazonqWorkspaceLsp: LspController: LSP activated
+2025-08-23 02:37:39.198 [info] amazonqWorkspaceLsp: LspController: Starting to build index of project
+2025-08-23 02:37:40.624 [info] [Info  - 2:37:40 AM] Found 0 symbols in this workspace
+2025-08-23 02:37:48.259 [warning] childProcess: Process 414 exceeded memory threshold: 348692480
+2025-08-23 02:37:58.260 [warning] childProcess: Process 414 exceeded memory threshold: 348733440
+2025-08-23 02:38:08.260 [warning] childProcess: Process 414 exceeded memory threshold: 348733440
+2025-08-23 02:38:18.253 [warning] childProcess: Process 414 exceeded memory threshold: 331948032
+2025-08-23 02:38:28.253 [warning] childProcess: Process 414 exceeded memory threshold: 332124160
+2025-08-23 02:38:38.252 [warning] childProcess: Process 414 exceeded memory threshold: 332349440
+2025-08-23 02:38:48.256 [warning] childProcess: Process 414 exceeded memory threshold: 332656640
+2025-08-23 02:38:58.250 [warning] childProcess: Process 414 exceeded memory threshold: 332816384
+2025-08-23 02:39:08.252 [warning] childProcess: Process 414 exceeded memory threshold: 333029376
+2025-08-23 02:39:18.251 [warning] childProcess: Process 414 exceeded memory threshold: 333221888
+2025-08-23 02:39:28.253 [warning] childProcess: Process 414 exceeded memory threshold: 333389824
+2025-08-23 02:39:38.254 [warning] childProcess: Process 414 exceeded memory threshold: 333553664
+2025-08-23 02:39:48.260 [warning] childProcess: Process 414 exceeded memory threshold: 333721600
+2025-08-23 02:39:58.255 [warning] childProcess: Process 414 exceeded memory threshold: 333893632
+2025-08-23 02:40:08.253 [warning] childProcess: Process 414 exceeded memory threshold: 332951552
+2025-08-23 02:40:17.726 [info] using codewhispererService service configuration: default
+2025-08-23 02:40:17.727 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:40:18.202 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:40:18.277 [warning] childProcess: Process 414 exceeded memory threshold: 332967936
+2025-08-23 02:40:28.252 [warning] childProcess: Process 414 exceeded memory threshold: 332976128
+2025-08-23 02:40:38.252 [warning] childProcess: Process 414 exceeded memory threshold: 332976128
+2025-08-23 02:40:48.266 [warning] childProcess: Process 414 exceeded memory threshold: 332976128
+2025-08-23 02:40:58.267 [warning] childProcess: Process 414 exceeded memory threshold: 333045760
+2025-08-23 02:41:08.257 [warning] childProcess: Process 414 exceeded memory threshold: 332193792
+2025-08-23 02:41:18.254 [warning] childProcess: Process 414 exceeded memory threshold: 332361728
+2025-08-23 02:41:28.272 [warning] childProcess: Process 414 exceeded memory threshold: 332869632
+2025-08-23 02:41:38.262 [warning] childProcess: Process 414 exceeded memory threshold: 333049856
+2025-08-23 02:41:48.255 [warning] childProcess: Process 414 exceeded memory threshold: 333185024
+2025-08-23 02:41:58.257 [warning] childProcess: Process 414 exceeded memory threshold: 333348864
+2025-08-23 02:42:08.256 [warning] childProcess: Process 414 exceeded memory threshold: 332500992
+2025-08-23 02:42:11.355 [info] telemetry: sent batch (size=19)
+2025-08-23 02:42:18.259 [warning] childProcess: Process 414 exceeded memory threshold: 332660736
+2025-08-23 02:42:28.259 [warning] childProcess: Process 414 exceeded memory threshold: 332840960
+2025-08-23 02:42:38.257 [warning] childProcess: Process 414 exceeded memory threshold: 332984320
+2025-08-23 02:42:48.257 [warning] childProcess: Process 414 exceeded memory threshold: 333156352
+2025-08-23 02:42:58.256 [warning] childProcess: Process 414 exceeded memory threshold: 332464128
+2025-08-23 02:43:01.675 [info] amazonqWorkspaceLsp: LspController: Found 1296 files in current project /home/sagemaker-user
+2025-08-23 02:43:01.788 [info] [Info  - 2:43:01 AM] start building tree index for /home/sagemaker-user
+2025-08-23 02:43:08.316 [warning] childProcess: Process 414 exceeded memory threshold: 439238656
+2025-08-23 02:43:09.066 [info] [Info  - 2:43:09 AM] Finished parsing 879 python files. Time 7329.29ms
+2025-08-23 02:43:18.367 [warning] childProcess: Process 414 exceeded memory threshold: 713699328
+2025-08-23 02:43:28.281 [warning] childProcess: Process 414 exceeded memory threshold: 691548160
+2025-08-23 02:43:38.279 [warning] childProcess: Process 414 exceeded memory threshold: 927158272
+2025-08-23 02:43:41.718 [info] [Info  - 2:43:41 AM] Finished parsing 224 javascript files. Time 32641.05ms
+2025-08-23 02:43:41.908 [info] [Info  - 2:43:41 AM] Finished parsing 14 typescript files. Time 204.22ms
+2025-08-23 02:43:45.742 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:43:46.218 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:43:48.271 [warning] childProcess: Process 414 exceeded memory threshold: 919216128
+2025-08-23 02:43:58.268 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:44:08.292 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:44:18.269 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:44:28.266 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:44:38.268 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:44:48.268 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:44:58.267 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:45:08.271 [warning] childProcess: Process 414 exceeded memory threshold: 900108288
+2025-08-23 02:45:18.269 [warning] childProcess: Process 414 exceeded memory threshold: 900362240
+2025-08-23 02:45:28.269 [warning] childProcess: Process 414 exceeded memory threshold: 900362240
+2025-08-23 02:45:38.272 [warning] childProcess: Process 414 exceeded memory threshold: 900362240
+2025-08-23 02:45:48.270 [warning] childProcess: Process 414 exceeded memory threshold: 900362240
+2025-08-23 02:45:58.271 [warning] childProcess: Process 414 exceeded memory threshold: 900362240
+2025-08-23 02:46:08.269 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:46:18.269 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:46:28.269 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:46:38.268 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:46:48.270 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:46:58.271 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:47:08.270 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:47:11.453 [info] telemetry: sent batch (size=7)
+2025-08-23 02:47:18.271 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:47:25.059 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 02:47:28.269 [warning] childProcess: Process 414 exceeded memory threshold: 900575232
+2025-08-23 02:47:38.270 [warning] childProcess: Process 414 exceeded memory threshold: 900841472
+2025-08-23 02:47:48.276 [warning] childProcess: Process 414 exceeded memory threshold: 900841472
+2025-08-23 02:47:52.685 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:47:53.159 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:47:58.275 [warning] childProcess: Process 414 exceeded memory threshold: 899792896
+2025-08-23 02:48:08.271 [warning] childProcess: Process 414 exceeded memory threshold: 899792896
+2025-08-23 02:48:18.271 [warning] childProcess: Process 414 exceeded memory threshold: 899792896
+2025-08-23 02:48:27.509 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:48:27.982 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:48:28.288 [warning] childProcess: Process 414 exceeded memory threshold: 899792896
+2025-08-23 02:48:38.271 [warning] childProcess: Process 414 exceeded memory threshold: 899792896
+2025-08-23 02:48:48.272 [warning] childProcess: Process 414 exceeded memory threshold: 899792896
+2025-08-23 02:48:58.272 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:49:08.272 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:49:18.270 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:49:28.271 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:49:31.583 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:49:32.055 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:49:38.272 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:49:48.274 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:49:58.273 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:50:08.272 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:50:18.278 [warning] childProcess: Process 414 exceeded memory threshold: 900055040
+2025-08-23 02:50:28.275 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:50:38.277 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:50:48.277 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:50:58.277 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:51:08.278 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:51:18.277 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:51:28.277 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:51:38.278 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:51:48.280 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:51:58.279 [warning] childProcess: Process 414 exceeded memory threshold: 900317184
+2025-08-23 02:52:08.280 [warning] childProcess: Process 414 exceeded memory threshold: 900587520
+2025-08-23 02:52:11.539 [info] telemetry: sent batch (size=7)
+2025-08-23 02:52:18.279 [warning] childProcess: Process 414 exceeded memory threshold: 900587520
+2025-08-23 02:52:20.260 [info] [Info  - 2:52:20 AM] repomap query time: 3.13ms
+2025-08-23 02:52:20.577 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:20.937 [info] [Info  - 2:52:20 AM] repomap query time: 1.54ms
+2025-08-23 02:52:21.191 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:21.574 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:21.574 [info] [Info  - 2:52:21 AM] repomap query time: 4.31ms
+2025-08-23 02:52:21.924 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:21.930 [info] [Info  - 2:52:21 AM] repomap query time: 1.85ms
+2025-08-23 02:52:22.207 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:22.290 [info] [Info  - 2:52:22 AM] repomap query time: 2.28ms
+2025-08-23 02:52:22.579 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:22.588 [info] [Info  - 2:52:22 AM] repomap query time: 1.77ms
+2025-08-23 02:52:22.965 [info] [Info  - 2:52:22 AM] repomap query time: 3.00ms
+2025-08-23 02:52:23.178 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:23.535 [info] [Info  - 2:52:23 AM] repomap query time: 1.81ms
+2025-08-23 02:52:23.666 [warning] inline completion preprocessEndTime has been set and not reset correctly
+2025-08-23 02:52:24.021 [info] [Info  - 2:52:24 AM] repomap query time: 1.73ms
+2025-08-23 02:52:25.662 [error] Failed to invoke sendTelemetryEvent, requestId:
+2025-08-23 02:52:25.903 [info] [Info  - 2:52:25 AM] repomap query time: 1.52ms
+2025-08-23 02:52:28.277 [warning] childProcess: Process 414 exceeded memory threshold: 900259840
+2025-08-23 02:52:38.279 [warning] childProcess: Process 414 exceeded memory threshold: 900259840
+2025-08-23 02:52:42.553 [error] Failed to invoke sendTelemetryEvent, requestId:
+2025-08-23 02:52:42.789 [info] [Info  - 2:52:42 AM] repomap query time: 1.76ms
+2025-08-23 02:52:48.277 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:52:58.278 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:53:08.279 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:53:18.278 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:53:28.278 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:53:38.279 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:53:48.279 [warning] childProcess: Process 414 exceeded memory threshold: 899907584
+2025-08-23 02:53:51.676 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:53:52.151 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:53:58.279 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:54:08.280 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:54:18.278 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:54:28.278 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:54:35.447 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:54:35.926 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:54:38.278 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:54:48.279 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:54:50.114 [warning] Reset Q is editing state to false.
+2025-08-23 02:54:58.296 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:55:08.282 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:55:18.282 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:55:21.831 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 02:55:22.302 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 02:55:28.283 [warning] childProcess: Process 414 exceeded memory threshold: 900177920
+2025-08-23 02:55:38.284 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:55:48.283 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:55:58.284 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:56:08.285 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:56:18.285 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:56:28.285 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:56:38.287 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:56:48.285 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:56:58.285 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:57:08.285 [warning] childProcess: Process 414 exceeded memory threshold: 900448256
+2025-08-23 02:57:11.661 [info] telemetry: sent batch (size=20)
+2025-08-23 02:57:11.772 [info] telemetry: sent batch (size=3)
+2025-08-23 02:57:18.286 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:57:25.054 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 02:57:28.285 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:57:38.288 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:57:48.289 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:57:58.289 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:58:08.289 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:58:18.288 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:58:28.289 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:58:38.288 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:58:48.288 [warning] childProcess: Process 414 exceeded memory threshold: 900718592
+2025-08-23 02:58:58.289 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 02:59:08.299 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 02:59:18.325 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 02:59:28.292 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 02:59:38.291 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 02:59:48.290 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 02:59:58.290 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 03:00:08.290 [warning] childProcess: Process 414 exceeded memory threshold: 899940352
+2025-08-23 03:00:18.290 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:00:28.290 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:00:38.291 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:00:48.291 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:00:58.292 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:01:08.293 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:01:18.293 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:01:28.306 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:01:38.297 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:01:48.300 [warning] childProcess: Process 414 exceeded memory threshold: 900210688
+2025-08-23 03:01:58.300 [warning] childProcess: Process 414 exceeded memory threshold: 900481024
+2025-08-23 03:02:08.298 [warning] childProcess: Process 414 exceeded memory threshold: 900481024
+2025-08-23 03:02:11.843 [info] telemetry: sent batch (size=1)
+2025-08-23 03:02:18.299 [warning] childProcess: Process 414 exceeded memory threshold: 900481024
+2025-08-23 03:02:28.299 [warning] childProcess: Process 414 exceeded memory threshold: 899964928
+2025-08-23 03:02:38.300 [warning] childProcess: Process 414 exceeded memory threshold: 899964928
+2025-08-23 03:02:48.301 [warning] childProcess: Process 414 exceeded memory threshold: 899964928
+2025-08-23 03:02:58.300 [warning] childProcess: Process 414 exceeded memory threshold: 900235264
+2025-08-23 03:02:58.560 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:02:59.033 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:03:08.299 [warning] childProcess: Process 414 exceeded memory threshold: 900235264
+2025-08-23 03:03:18.357 [warning] childProcess: Process 414 exceeded memory threshold: 900235264
+2025-08-23 03:03:28.301 [warning] childProcess: Process 414 exceeded memory threshold: 900235264
+2025-08-23 03:03:38.301 [warning] childProcess: Process 414 exceeded memory threshold: 900018176
+2025-08-23 03:03:48.299 [warning] childProcess: Process 414 exceeded memory threshold: 900018176
+2025-08-23 03:03:58.302 [warning] childProcess: Process 414 exceeded memory threshold: 900288512
+2025-08-23 03:04:08.300 [warning] childProcess: Process 414 exceeded memory threshold: 900161536
+2025-08-23 03:04:14.689 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:04:15.174 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:04:18.315 [warning] childProcess: Process 414 exceeded memory threshold: 881594368
+2025-08-23 03:04:28.300 [warning] childProcess: Process 414 exceeded memory threshold: 880697344
+2025-08-23 03:04:38.302 [warning] childProcess: Process 414 exceeded memory threshold: 880697344
+2025-08-23 03:04:48.304 [warning] childProcess: Process 414 exceeded memory threshold: 880697344
+2025-08-23 03:04:58.302 [warning] childProcess: Process 414 exceeded memory threshold: 880697344
+2025-08-23 03:05:08.302 [warning] childProcess: Process 414 exceeded memory threshold: 880697344
+2025-08-23 03:05:18.302 [warning] childProcess: Process 414 exceeded memory threshold: 880697344
+2025-08-23 03:05:28.302 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:05:38.303 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:05:48.308 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:05:58.305 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:06:08.305 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:06:18.327 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:06:28.305 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:06:38.305 [warning] childProcess: Process 414 exceeded memory threshold: 880967680
+2025-08-23 03:06:48.306 [warning] childProcess: Process 414 exceeded memory threshold: 880472064
+2025-08-23 03:06:58.305 [warning] childProcess: Process 414 exceeded memory threshold: 880472064
+2025-08-23 03:07:08.305 [warning] childProcess: Process 414 exceeded memory threshold: 880472064
+2025-08-23 03:07:11.927 [info] telemetry: sent batch (size=5)
+2025-08-23 03:07:18.305 [warning] childProcess: Process 414 exceeded memory threshold: 880472064
+2025-08-23 03:07:25.067 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 03:07:28.307 [warning] childProcess: Process 414 exceeded memory threshold: 880472064
+2025-08-23 03:07:38.308 [warning] childProcess: Process 414 exceeded memory threshold: 880472064
+2025-08-23 03:07:39.201 [info] amazonqWorkspaceLsp: LspController: LSP server CPU 0%, LSP server Memory 839.68359375MB
+2025-08-23 03:07:48.307 [warning] childProcess: Process 414 exceeded memory threshold: 1152983040
+2025-08-23 03:07:58.318 [warning] childProcess: Process 414 exceeded memory threshold: 1059287040
+2025-08-23 03:08:08.321 [warning] childProcess: Process 414 exceeded memory threshold: 1048707072
+2025-08-23 03:08:18.319 [warning] childProcess: Process 414 exceeded memory threshold: 1021308928
+2025-08-23 03:08:20.897 [info] Refreshing indexes...
+2025-08-23 03:08:20.898 [info] [Info  - 3:08:20 AM] Finished parsing 224 javascript files. Time 33622.39ms
+2025-08-23 03:08:20.898 [info] [Info  - 3:08:20 AM] Finished parsing 14 typescript files. Time 70.96ms
+2025-08-23 03:08:20.898 [info] [Info  - 3:08:20 AM] Finished parsing 881 python files. Time 5990.88ms
+2025-08-23 03:08:28.308 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:08:38.309 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:08:48.310 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:08:58.309 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:09:08.309 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:09:18.310 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:09:28.309 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:09:38.309 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:09:48.310 [warning] childProcess: Process 414 exceeded memory threshold: 1022652416
+2025-08-23 03:09:58.311 [warning] childProcess: Process 414 exceeded memory threshold: 903090176
+2025-08-23 03:10:08.312 [warning] childProcess: Process 414 exceeded memory threshold: 903090176
+2025-08-23 03:10:18.313 [warning] childProcess: Process 414 exceeded memory threshold: 903090176
+2025-08-23 03:10:28.312 [warning] childProcess: Process 414 exceeded memory threshold: 903090176
+2025-08-23 03:10:38.312 [warning] childProcess: Process 414 exceeded memory threshold: 903090176
+2025-08-23 03:10:48.312 [warning] childProcess: Process 414 exceeded memory threshold: 903090176
+2025-08-23 03:10:58.318 [warning] childProcess: Process 414 exceeded memory threshold: 903245824
+2025-08-23 03:11:08.311 [warning] childProcess: Process 414 exceeded memory threshold: 903512064
+2025-08-23 03:11:18.313 [warning] childProcess: Process 414 exceeded memory threshold: 903782400
+2025-08-23 03:11:28.312 [warning] childProcess: Process 414 exceeded memory threshold: 903274496
+2025-08-23 03:11:38.330 [warning] childProcess: Process 414 exceeded memory threshold: 903274496
+2025-08-23 03:11:48.314 [warning] childProcess: Process 414 exceeded memory threshold: 897814528
+2025-08-23 03:11:50.907 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:11:51.379 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:11:58.314 [warning] childProcess: Process 414 exceeded memory threshold: 897814528
+2025-08-23 03:12:08.315 [warning] childProcess: Process 414 exceeded memory threshold: 897814528
+2025-08-23 03:12:12.046 [info] telemetry: sent batch (size=3)
+2025-08-23 03:12:18.317 [warning] childProcess: Process 414 exceeded memory threshold: 897814528
+2025-08-23 03:12:28.318 [warning] childProcess: Process 414 exceeded memory threshold: 897814528
+2025-08-23 03:12:38.318 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:12:48.318 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:12:58.319 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:13:08.319 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:13:18.319 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:13:25.856 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:13:26.331 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:13:28.319 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:13:38.319 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:13:48.319 [warning] childProcess: Process 414 exceeded memory threshold: 898072576
+2025-08-23 03:13:58.319 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:14:08.319 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:14:18.321 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:14:28.321 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:14:38.321 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:14:48.322 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:14:58.320 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:15:08.321 [warning] childProcess: Process 414 exceeded memory threshold: 898342912
+2025-08-23 03:15:18.323 [warning] childProcess: Process 414 exceeded memory threshold: 897863680
+2025-08-23 03:15:28.320 [warning] childProcess: Process 414 exceeded memory threshold: 897916928
+2025-08-23 03:15:38.321 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:15:48.323 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:15:58.320 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:16:08.323 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:16:13.441 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:16:13.912 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:16:18.322 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:16:28.321 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:16:38.323 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:16:48.322 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:16:58.323 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:17:08.322 [warning] childProcess: Process 414 exceeded memory threshold: 898187264
+2025-08-23 03:17:12.130 [info] telemetry: sent batch (size=5)
+2025-08-23 03:17:18.321 [warning] childProcess: Process 414 exceeded memory threshold: 898457600
+2025-08-23 03:17:25.047 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 03:17:28.322 [warning] childProcess: Process 414 exceeded memory threshold: 898457600
+2025-08-23 03:17:38.322 [warning] childProcess: Process 414 exceeded memory threshold: 898457600
+2025-08-23 03:17:48.323 [warning] childProcess: Process 414 exceeded memory threshold: 897986560
+2025-08-23 03:17:58.322 [warning] childProcess: Process 414 exceeded memory threshold: 897986560
+2025-08-23 03:18:08.322 [warning] childProcess: Process 414 exceeded memory threshold: 897986560
+2025-08-23 03:18:14.293 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:18:14.768 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:18:18.324 [warning] childProcess: Process 414 exceeded memory threshold: 897986560
+2025-08-23 03:18:28.401 [warning] childProcess: Process 414 exceeded memory threshold: 897986560
+2025-08-23 03:18:38.327 [warning] childProcess: Process 414 exceeded memory threshold: 897986560
+2025-08-23 03:18:44.362 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:18:44.854 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:18:48.323 [warning] childProcess: Process 414 exceeded memory threshold: 898256896
+2025-08-23 03:18:58.323 [warning] childProcess: Process 414 exceeded memory threshold: 898256896
+2025-08-23 03:19:08.336 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:19:18.324 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:19:28.323 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:19:38.325 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:19:48.323 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:19:58.323 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:20:08.325 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:20:18.324 [warning] childProcess: Process 414 exceeded memory threshold: 887635968
+2025-08-23 03:20:28.323 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:20:38.323 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:20:48.324 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:20:58.332 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:21:08.326 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:21:18.325 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:21:28.327 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:21:38.325 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:21:48.325 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:21:58.325 [warning] childProcess: Process 414 exceeded memory threshold: 887906304
+2025-08-23 03:22:08.325 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:22:12.220 [info] telemetry: sent batch (size=5)
+2025-08-23 03:22:18.326 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:22:28.327 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:22:38.327 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:22:48.330 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:22:58.326 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:23:08.326 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:23:18.327 [warning] childProcess: Process 414 exceeded memory threshold: 887324672
+2025-08-23 03:23:28.327 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:23:38.328 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:23:48.327 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:23:58.327 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:24:08.328 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:24:18.330 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:24:28.328 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:24:38.329 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:24:48.330 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:24:58.332 [warning] childProcess: Process 414 exceeded memory threshold: 887595008
+2025-08-23 03:25:08.330 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:25:18.330 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:25:28.330 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:25:38.329 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:25:48.330 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:25:58.331 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:26:08.331 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:26:18.331 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:26:28.332 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:26:38.332 [warning] childProcess: Process 414 exceeded memory threshold: 887865344
+2025-08-23 03:26:48.331 [warning] childProcess: Process 414 exceeded memory threshold: 888135680
+2025-08-23 03:26:58.332 [warning] childProcess: Process 414 exceeded memory threshold: 888135680
+2025-08-23 03:27:08.331 [warning] childProcess: Process 414 exceeded memory threshold: 888135680
+2025-08-23 03:27:18.333 [warning] childProcess: Process 414 exceeded memory threshold: 887275520
+2025-08-23 03:27:25.051 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 03:27:28.330 [warning] childProcess: Process 414 exceeded memory threshold: 887275520
+2025-08-23 03:27:38.334 [warning] childProcess: Process 414 exceeded memory threshold: 887275520
+2025-08-23 03:27:48.334 [warning] childProcess: Process 414 exceeded memory threshold: 887275520
+2025-08-23 03:27:58.332 [warning] childProcess: Process 414 exceeded memory threshold: 887275520
+2025-08-23 03:28:08.331 [warning] childProcess: Process 414 exceeded memory threshold: 887275520
+2025-08-23 03:28:18.331 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:28:28.330 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:28:38.331 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:28:48.331 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:28:58.332 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:29:08.332 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:29:18.332 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:29:28.331 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:29:38.330 [warning] childProcess: Process 414 exceeded memory threshold: 887361536
+2025-08-23 03:29:48.331 [warning] childProcess: Process 414 exceeded memory threshold: 887361536
+2025-08-23 03:29:58.331 [warning] childProcess: Process 414 exceeded memory threshold: 887394304
+2025-08-23 03:30:08.330 [warning] childProcess: Process 414 exceeded memory threshold: 887394304
+2025-08-23 03:30:08.385 [error] Failed to invoke sendTelemetryEvent, requestId:
+2025-08-23 03:30:09.690 [info] [Info  - 3:30:09 AM] repomap query time: 11.55ms
+2025-08-23 03:30:18.333 [warning] childProcess: Process 414 exceeded memory threshold: 887177216
+2025-08-23 03:30:28.330 [warning] childProcess: Process 414 exceeded memory threshold: 887177216
+2025-08-23 03:30:38.331 [warning] childProcess: Process 414 exceeded memory threshold: 887447552
+2025-08-23 03:30:44.689 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:30:45.234 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:30:48.333 [warning] childProcess: Process 414 exceeded memory threshold: 887447552
+2025-08-23 03:30:58.331 [warning] childProcess: Process 414 exceeded memory threshold: 887447552
+2025-08-23 03:31:08.331 [warning] childProcess: Process 414 exceeded memory threshold: 887447552
+2025-08-23 03:31:18.332 [warning] childProcess: Process 414 exceeded memory threshold: 887447552
+2025-08-23 03:31:28.333 [warning] childProcess: Process 414 exceeded memory threshold: 887447552
+2025-08-23 03:31:38.339 [warning] childProcess: Process 414 exceeded memory threshold: 887255040
+2025-08-23 03:31:48.333 [warning] childProcess: Process 414 exceeded memory threshold: 887255040
+2025-08-23 03:31:58.332 [warning] childProcess: Process 414 exceeded memory threshold: 887255040
+2025-08-23 03:32:05.587 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:32:06.061 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:32:08.334 [warning] childProcess: Process 414 exceeded memory threshold: 887255040
+2025-08-23 03:32:12.304 [info] telemetry: sent batch (size=7)
+2025-08-23 03:32:18.334 [warning] childProcess: Process 414 exceeded memory threshold: 887209984
+2025-08-23 03:32:28.335 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:32:38.336 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:32:38.950 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:32:39.426 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:32:48.337 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:32:58.336 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:33:08.373 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:33:18.338 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:33:28.338 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:33:38.338 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:33:48.338 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:33:58.338 [warning] childProcess: Process 414 exceeded memory threshold: 887480320
+2025-08-23 03:34:08.337 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:34:18.339 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:34:28.337 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:34:38.338 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:34:48.338 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:34:58.339 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:35:08.338 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:35:18.339 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:35:28.339 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:35:38.338 [warning] childProcess: Process 414 exceeded memory threshold: 887750656
+2025-08-23 03:35:48.339 [warning] childProcess: Process 414 exceeded memory threshold: 888020992
+2025-08-23 03:35:58.338 [warning] childProcess: Process 414 exceeded memory threshold: 888020992
+2025-08-23 03:36:08.339 [warning] childProcess: Process 414 exceeded memory threshold: 888020992
+2025-08-23 03:36:18.339 [warning] childProcess: Process 414 exceeded memory threshold: 887783424
+2025-08-23 03:36:28.338 [warning] childProcess: Process 414 exceeded memory threshold: 887783424
+2025-08-23 03:36:38.340 [warning] childProcess: Process 414 exceeded memory threshold: 887783424
+2025-08-23 03:36:38.991 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:36:39.475 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:36:48.339 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:36:58.338 [warning] childProcess: Process 414 exceeded memory threshold: 887545856
+2025-08-23 03:37:08.345 [warning] childProcess: Process 414 exceeded memory threshold: 872161280
+2025-08-23 03:37:12.388 [info] telemetry: sent batch (size=6)
+2025-08-23 03:37:14.404 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:37:14.878 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:37:18.342 [warning] childProcess: Process 414 exceeded memory threshold: 867069952
+2025-08-23 03:37:25.070 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 03:37:28.338 [warning] childProcess: Process 414 exceeded memory threshold: 866942976
+2025-08-23 03:37:38.339 [warning] childProcess: Process 414 exceeded memory threshold: 867209216
+2025-08-23 03:37:39.229 [info] amazonqWorkspaceLsp: LspController: LSP server CPU 0%, LSP server Memory 828.40625MB
+2025-08-23 03:37:48.350 [warning] childProcess: Process 414 exceeded memory threshold: 965369856
+2025-08-23 03:37:58.352 [warning] childProcess: Process 414 exceeded memory threshold: 1005494272
+2025-08-23 03:38:08.352 [warning] childProcess: Process 414 exceeded memory threshold: 974516224
+2025-08-23 03:38:09.436 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:38:09.906 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:38:18.353 [warning] childProcess: Process 414 exceeded memory threshold: 973164544
+2025-08-23 03:38:19.152 [info] Refreshing indexes...
+2025-08-23 03:38:19.154 [info] [Info  - 3:38:19 AM] Finished parsing 224 javascript files. Time 32055.91ms
+2025-08-23 03:38:19.154 [info] [Info  - 3:38:19 AM] Finished parsing 14 typescript files. Time 91.42ms
+2025-08-23 03:38:19.154 [info] [Info  - 3:38:19 AM] Finished parsing 885 python files. Time 5713.56ms
+2025-08-23 03:38:28.345 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:38:38.341 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:38:48.342 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:38:58.360 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:39:02.167 [error] Failed getting presigned url for uploading src context. Request id: undefined
+2025-08-23 03:39:02.658 [error] Security scan failed. 'Error: There were 2 validation errors:\n' +
+  "* UnexpectedParameter: Unexpected key 'uploadIntent' found in params\n" +
+  "* UnexpectedParameter: Unexpected key 'uploadContext' found in params [CreateUploadUrlError]"
+2025-08-23 03:39:08.341 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:39:18.342 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:39:28.341 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:39:38.341 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:39:48.342 [warning] childProcess: Process 414 exceeded memory threshold: 973705216
+2025-08-23 03:39:58.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:40:08.344 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:40:18.344 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:40:28.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:40:38.355 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:40:48.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:40:58.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:41:08.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:41:18.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:41:28.343 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:41:38.344 [warning] childProcess: Process 414 exceeded memory threshold: 877125632
+2025-08-23 03:41:48.344 [warning] childProcess: Process 414 exceeded memory threshold: 870760448
+2025-08-23 03:41:58.342 [warning] childProcess: Process 414 exceeded memory threshold: 870760448
+2025-08-23 03:42:08.343 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:42:12.523 [info] telemetry: sent batch (size=7)
+2025-08-23 03:42:18.344 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:42:28.345 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:42:38.345 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:42:48.343 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:42:58.345 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:43:08.346 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:43:18.346 [warning] childProcess: Process 414 exceeded memory threshold: 871030784
+2025-08-23 03:43:28.393 [warning] childProcess: Process 414 exceeded memory threshold: 871591936
+2025-08-23 03:43:38.346 [warning] childProcess: Process 414 exceeded memory threshold: 870768640
+2025-08-23 03:43:48.344 [warning] childProcess: Process 414 exceeded memory threshold: 870768640
+2025-08-23 03:43:58.345 [warning] childProcess: Process 414 exceeded memory threshold: 870768640
+2025-08-23 03:44:08.344 [warning] childProcess: Process 414 exceeded memory threshold: 870768640
+2025-08-23 03:44:18.349 [warning] childProcess: Process 414 exceeded memory threshold: 870768640
+2025-08-23 03:44:28.345 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:44:38.347 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:44:48.346 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:44:58.346 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:45:08.346 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:45:18.347 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:45:28.347 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:45:38.346 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:45:48.353 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:45:58.347 [warning] childProcess: Process 414 exceeded memory threshold: 871034880
+2025-08-23 03:46:08.347 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:46:18.349 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:46:28.347 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:46:38.348 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:46:48.348 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:46:58.348 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:47:08.348 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:47:18.348 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:47:25.077 [info] auth: Updating connection state of ecs:instance to valid
+2025-08-23 03:47:28.357 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:47:38.355 [warning] childProcess: Process 414 exceeded memory threshold: 871305216
+2025-08-23 03:47:48.357 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:47:58.356 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:48:08.356 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:48:18.360 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:48:28.357 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:48:38.356 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:48:48.358 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:48:58.388 [warning] childProcess: Process 414 exceeded memory threshold: 871575552
+2025-08-23 03:49:08.364 [warning] childProcess: Process 414 exceeded memory threshold: 872439808
+2025-08-23 03:49:18.525 [warning] childProcess: Process 414 exceeded memory threshold: 872439808
+2025-08-23 03:49:29.017 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:49:39.017 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:49:49.678 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:49:59.677 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:50:09.678 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:50:19.678 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:50:29.683 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:50:39.678 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:50:49.677 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:50:59.677 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:51:09.678 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:51:19.681 [warning] childProcess: Process 414 exceeded memory threshold: 871510016
+2025-08-23 03:51:29.679 [warning] childProcess: Process 414 exceeded memory threshold: 872923136
+2025-08-23 03:51:39.681 [warning] childProcess: Process 414 exceeded memory threshold: 871489536
+2025-08-23 03:51:49.681 [warning] childProcess: Process 414 exceeded memory threshold: 871489536
+2025-08-23 03:51:59.681 [warning] childProcess: Process 414 exceeded memory threshold: 871489536
+2025-08-23 03:52:09.688 [warning] childProcess: Process 414 exceeded memory threshold: 871489536
+2025-08-23 03:52:12.607 [info] telemetry: sent batch (size=3)
+2025-08-23 03:52:19.684 [warning] childProcess: Process 414 exceeded memory threshold: 871759872

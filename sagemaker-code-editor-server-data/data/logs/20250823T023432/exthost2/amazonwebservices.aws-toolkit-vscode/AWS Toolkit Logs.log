@@ -1,0 +1,47 @@
+2025-08-23 02:37:10.174 [info] Log level: info, beta=false
+2025-08-23 02:37:10.174 [info] endpoints: retrieving AWS endpoints data
+2025-08-23 02:37:10.174 [info] Telemetry product: AWS Toolkit For VS Code
+2025-08-23 02:37:10.417 [info] Telemetry clientId: 96c369f9-03bf-4c24-88b7-029a50b9bb2d
+2025-08-23 02:37:10.417 [info] Telemetry sessionId: 548b6842-75a8-4267-9b67-b3df9bca5cbf
+2025-08-23 02:37:10.496 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-08-23 02:37:20.337 [info] OS: Linux x64 5.10.240-238.955.amzn2.x86_64
+2025-08-23 02:37:20.338 [info] AWS SageMaker Code Editor extension host:  1.90.1
+2025-08-23 02:37:20.338 [info] AWS Toolkit:  3.69.0
+2025-08-23 02:37:20.338 [info] node: 20.19.4
+2025-08-23 02:37:20.589 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-08-23 02:37:20.836 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: Error: connect EINVAL 169.254.169.254:80 - Local (0.0.0.0:0) [EINVAL]
+2025-08-23 02:37:21.560 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:37:21.560 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:37:21.813 [info] Remote debugging is initiated
+2025-08-23 02:37:23.182 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:37:23.182 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:37:24.189 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:37:24.189 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:37:25.486 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:37:25.486 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:42:10.884 [info] telemetry: sent batch (size=9)
+2025-08-23 02:47:10.962 [info] telemetry: sent batch (size=1)
+2025-08-23 02:47:26.467 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:47:26.467 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:52:11.042 [info] telemetry: sent batch (size=1)
+2025-08-23 02:57:26.480 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:57:26.480 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 03:02:11.161 [info] telemetry: sent batch (size=1)
+2025-08-23 03:07:11.248 [info] telemetry: sent batch (size=1)
+2025-08-23 03:07:26.459 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 03:07:26.460 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 03:12:11.333 [info] telemetry: sent batch (size=1)
+2025-08-23 03:17:11.434 [info] telemetry: sent batch (size=1)
+2025-08-23 03:17:26.461 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 03:17:26.461 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 03:22:11.526 [info] telemetry: sent batch (size=1)
+2025-08-23 03:27:26.463 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 03:27:26.463 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 03:32:11.606 [info] telemetry: sent batch (size=1)
+2025-08-23 03:37:11.697 [info] telemetry: sent batch (size=1)
+2025-08-23 03:37:26.460 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 03:37:26.461 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 03:42:11.830 [info] telemetry: sent batch (size=1)
+2025-08-23 03:47:26.457 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 03:47:26.457 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 03:52:11.933 [info] telemetry: sent batch (size=2)

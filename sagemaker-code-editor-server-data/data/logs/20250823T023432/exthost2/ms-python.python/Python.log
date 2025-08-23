@@ -1,0 +1,50 @@
+2025-08-23 02:39:42.080 [info] Telemetry level is off
+2025-08-23 02:39:42.080 [info] Experiments are disabled, only manually opted experiments are active.
+2025-08-23 02:39:42.080 [info] Default formatter is set to null for workspace /home/sagemaker-user
+2025-08-23 02:39:42.081 [info] Test server listening.
+2025-08-23 02:39:42.081 [info] > conda info --json
+2025-08-23 02:39:42.086 [info] Found: /bin/python --> /opt/conda/bin/python3.12
+2025-08-23 02:39:42.100 [info] Found: /usr/bin/python --> /opt/conda/bin/python3.12
+2025-08-23 02:39:42.114 [info] Found: /opt/conda/bin/python --> /opt/conda/bin/python3.12
+2025-08-23 02:39:42.114 [info] Found: /opt/conda/bin/python3 --> /opt/conda/bin/python3.12
+2025-08-23 02:39:42.115 [info] Found: /opt/conda/bin/python3.1 --> /opt/conda/bin/python3.12
+2025-08-23 02:39:42.115 [info] Found: /opt/conda/bin/python3.12 --> /opt/conda/bin/python3.12
+2025-08-23 02:39:42.160 [info] > /bin/python -I /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2025-08-23 02:39:42.938 [info] > /opt/conda/bin/python -I /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2025-08-23 02:39:43.054 [info] Python interpreter path: /opt/conda/bin/python
+2025-08-23 02:39:43.314 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:43.365 [info] > /opt/conda/envs/sagemaker-recovery-mode/bin/python -I /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/get_output_via_markers.py /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/interpreterInfo.py
+2025-08-23 02:39:43.458 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:43.458 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:43.458 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:43.458 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:44.185 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-08-23 02:39:44.185 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-08-23 02:39:44.185 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-08-23 02:39:44.185 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2025-08-23 02:39:44.839 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:44.839 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2025-08-23 02:39:46.119 [info] Starting Jedi language server for sagemaker-user.
+2025-08-23 02:40:48.743 [info] Running installed packages checker:  /opt/conda/bin/python /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/installed_check.py /home/sagemaker-user/solution-files-c9/python/requirements-dev.txt
+2025-08-23 02:40:48.743 [info] > /opt/conda/bin/python /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/installed_check.py ./solution-files-c9/python/requirements-dev.txt
+2025-08-23 02:40:51.021 [info] Running installed packages checker:  /opt/conda/bin/python /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/installed_check.py /home/sagemaker-user/solution-files-c9/python/requirements.txt
+2025-08-23 02:40:51.021 [info] > /opt/conda/bin/python /opt/amazon/sagemaker/sagemaker-code-editor-server-data/extensions/ms-python.python-2023.20.0/pythonFiles/installed_check.py ./solution-files-c9/python/requirements.txt
+2025-08-23 02:52:18.026 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:52:22.275 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:52:27.601 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:52:44.473 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:53:14.416 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:53:22.139 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:53:59.794 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:54:04.789 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 02:54:52.309 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/runtime/get_save_image.py
+2025-08-23 03:03:18.675 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/infrastructure.py
+2025-08-23 03:03:20.471 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/infrastructure.py
+2025-08-23 03:03:26.298 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/api/infrastructure.py
+2025-08-23 03:03:43.811 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/integration/infrastructure.py
+2025-08-23 03:03:45.130 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/integration/infrastructure.py
+2025-08-23 03:12:56.350 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/recognition/runtime/image_recognition.py
+2025-08-23 03:18:14.843 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/recognition/runtime/list_images.py
+2025-08-23 03:30:05.085 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/integration/runtime/send_email.py
+2025-08-23 03:30:10.134 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/integration/runtime/send_email.py
+2025-08-23 03:30:14.891 [info] Discover tests for workspace name: sagemaker-user - uri: /home/sagemaker-user/solution-files-c9/python/integration/runtime/send_email.py

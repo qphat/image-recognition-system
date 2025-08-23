@@ -1,0 +1,15 @@
+2025-08-23 02:36:17.921 [info] Log level: info, beta=false
+2025-08-23 02:36:17.921 [info] endpoints: retrieving AWS endpoints data
+2025-08-23 02:36:17.921 [info] Telemetry product: AWS Toolkit For VS Code
+2025-08-23 02:36:18.180 [info] Telemetry clientId: 96c369f9-03bf-4c24-88b7-029a50b9bb2d
+2025-08-23 02:36:18.180 [info] Telemetry sessionId: deadb93f-2ae7-4ee6-bf86-2bc2fa540e39
+2025-08-23 02:36:18.252 [warning] AwsContext: no default region in credentials profile, falling back to us-east-1:
+2025-08-23 02:36:28.753 [info] OS: Linux x64 5.10.240-238.955.amzn2.x86_64
+2025-08-23 02:36:28.753 [info] AWS SageMaker Code Editor extension host:  1.90.1
+2025-08-23 02:36:28.753 [info] AWS Toolkit:  3.69.0
+2025-08-23 02:36:28.753 [info] node: 20.19.4
+2025-08-23 02:36:29.017 [info] initialized 'submitFeedback' command with default feedback id: AWS Toolkit
+2025-08-23 02:36:29.458 [warning] Ec2MetadataClient failed to fetch token. If this is an EC2 environment, then Toolkit will fall back to IMDSv1: Error: connect EINVAL 169.254.169.254:80 - Local (0.0.0.0:0) [EINVAL]
+2025-08-23 02:36:30.338 [error] Profile default is not a valid Credential Profile: not supported by the Toolkit
+2025-08-23 02:36:30.338 [warning] Shared Credentials Profile default is not valid. It will not be used by the toolkit.
+2025-08-23 02:36:30.857 [info] Remote debugging is initiated
