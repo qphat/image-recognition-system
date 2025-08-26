@@ -1,0 +1,17 @@
+cdk.out
+# Thư mục và tệp liên quan đến AWS
+.aws/
+
+# Thư mục cache và các file tạm
+.cache/
+
+# Thư mục chứa SDK
+.sdk/
+
+# Thư mục của npm
+.npm/
+
+# Thư mục của VS Code
+.vscode-server-oss/
+
+/cdk

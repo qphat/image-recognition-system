@@ -1,0 +1,44 @@
+2025-08-23 02:36:11.394 [info] Extension host with pid 133 started
+2025-08-23 02:36:11.698 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-23 02:36:12.009 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-08-23 02:36:12.009 [info] ExtensionService#_doActivateExtension sagemaker.post-startup-notifications, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.010 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-extension, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.010 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-extensions-sync, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.010 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-idle-extension, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.010 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-open-notebook-extension, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.011 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-terminal-crash-mitigation, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.303 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.304 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-23 02:36:12.750 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2025-08-23 02:36:12.750 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2025-08-23 02:36:12.987 [info] Eager extensions activated
+2025-08-23 02:36:12.988 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:12.988 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:12.989 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-ui-dark-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:12.989 [info] ExtensionService#_doActivateExtension amazonwebservices.amazon-q-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:12.990 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:31.265 [info] Extension host terminating: received terminate message from renderer
+2025-08-23 02:36:31.277 [error] An error occurred when deactivating the extension 'sagemaker.post-startup-notifications':
+2025-08-23 02:36:31.277 [error] TypeError: Cannot read properties of undefined (reading 'appendLine')
+	at e.deactivate (/opt/conda/share/sagemaker-code-editor/extensions/post-startup-notifications/dist/extension.js:2:2330)
+	at u.eb (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:159:9795)
+	at /opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:159:7866
+	at Array.map (<anonymous>)
+	at u.$ (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:159:7853)
+	at u.terminate (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:159:8126)
+	at f.terminate (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at n.value (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:176:8427)
+	at l.y (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at s.fire (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:96:14502)
+	at h.z (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:96:17638)
+	at n.value (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:96:16019)
+	at l.y (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at u.acceptChunk (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:96:12248)
+	at n.value (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:96:11518)
+	at l.y (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at n.z (/opt/conda/share/sagemaker-code-editor/out/vs/workbench/api/node/extensionHostProcess.js:173:20477)
+2025-08-23 02:36:31.280 [info] Extension host with pid 133 exiting with code 0

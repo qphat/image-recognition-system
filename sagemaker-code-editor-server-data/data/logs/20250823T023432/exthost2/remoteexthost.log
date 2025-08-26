@@ -1,0 +1,102 @@
+2025-08-23 02:36:38.017 [info] Extension host with pid 207 started
+2025-08-23 02:36:38.038 [info] Lock '/home/sagemaker-user/sagemaker-code-editor-server-data/data/User/workspaceStorage/-6810ad07/vscode.lock': Lock acquired.
+2025-08-23 02:36:38.299 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-08-23 02:36:38.300 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-extension, startup: true, activationEvent: '*'
+2025-08-23 02:36:38.301 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-extensions-sync, startup: true, activationEvent: '*'
+2025-08-23 02:36:38.301 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-idle-extension, startup: true, activationEvent: '*'
+2025-08-23 02:36:38.302 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-open-notebook-extension, startup: true, activationEvent: '*'
+2025-08-23 02:36:38.302 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-terminal-crash-mitigation, startup: true, activationEvent: '*'
+2025-08-23 02:36:38.571 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-23 02:36:39.307 [info] Eager extensions activated
+2025-08-23 02:36:39.308 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:39.309 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:36:39.309 [info] ExtensionService#_doActivateExtension sagemaker.sagemaker-ui-dark-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:37:04.928 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-08-23 02:37:05.310 [info] ExtensionService#_doActivateExtension sagemaker.post-startup-notifications, startup: false, activationEvent: '*'
+2025-08-23 02:37:05.311 [info] ExtensionService#_doActivateExtension amazonwebservices.amazon-q-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:37:05.311 [info] ExtensionService#_doActivateExtension amazonwebservices.aws-toolkit-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-08-23 02:37:09.069 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2025-08-23 02:37:09.069 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2025-08-23 02:39:39.832 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2025-08-23 02:39:39.834 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-08-23 02:39:39.834 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.allowUnauthorizedRemoteConnection' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.jupyterInterruptTimeout' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.jupyterLaunchTimeout' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.jupyterLaunchRetries' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.useDefaultConfigForJupyter' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.askForKernelRestart' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.interactiveWindow.textEditor.magicCommandsAsComments' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.interactiveWindow.textEditor.magicCommandsAsComments' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.themeMatplotlibPlots' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.958 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.disableJupyterAutoStart' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:40.959 [warning] [ms-toolsai.jupyter] Accessing a window scoped configuration for a resource is not expected. To associate 'jupyter.logKernelOutputSeparately' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:41.673 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-08-23 02:39:41.967 [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:41.970 [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:41.976 [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:42.011 [warning] [ms-python.python] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'python.envFile', provide the URI of a resource or 'null' for any resource.
+2025-08-23 02:39:43.527 [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:43.529 [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:43.530 [warning] [ms-python.python] Accessing a window scoped configuration for a resource is not expected. To associate 'python.languageServer' to a resource, define its scope to 'resource' in configuration contributions in 'package.json'.
+2025-08-23 02:39:45.681 [warning] TextEditor is closed/disposed
+2025-08-23 02:40:48.473 [warning] TextEditor is closed/disposed
+2025-08-23 02:47:20.669 [warning] TextEditor is closed/disposed
+2025-08-23 02:47:55.505 [warning] TextEditor is closed/disposed
+2025-08-23 02:48:59.573 [warning] TextEditor is closed/disposed
+2025-08-23 02:51:48.668 [warning] TextEditor is closed/disposed
+2025-08-23 02:52:05.271 [warning] TextEditor is closed/disposed
+2025-08-23 03:11:18.889 [warning] TextEditor is closed/disposed
+2025-08-23 03:15:41.718 [warning] TextEditor is closed/disposed
+2025-08-23 03:29:48.073 [warning] TextEditor is closed/disposed
+2025-08-23 03:32:07.231 [warning] TextEditor is closed/disposed
+2025-08-23 03:36:07.198 [warning] TextEditor is closed/disposed
+2025-08-23 03:36:42.396 [warning] TextEditor is closed/disposed
+2025-08-23 03:37:37.676 [warning] TextEditor is closed/disposed
+2025-08-23 03:38:19.192 [warning] TextEditor is closed/disposed
+2025-08-23 03:43:15.230 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-08-23 03:47:43.222 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3126
+2025-08-23 03:47:44.037 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3126
+2025-08-23 03:48:57.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:48:58.536 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:01.759 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:07.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:12.241 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:17.492 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:22.745 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:27.993 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:33.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:48.604 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:49:53.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:51:11.007 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:51:16.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:51:21.511 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9289
+2025-08-23 03:51:22.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 12413
+2025-08-23 03:51:26.741 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:51:31.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9288
+2025-08-23 03:51:37.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9290
+2025-08-23 03:51:50.633 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:51:55.740 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:00.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:08.297 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:13.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:18.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:24.165 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:29.320 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:34.444 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:39.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:44.666 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:49.784 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:52:54.896 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:53:02.908 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:53:08.021 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:53:13.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:53:18.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:53:24.118 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:54:04.172 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3201
+2025-08-23 03:54:09.292 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3202
+2025-08-23 03:54:14.412 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3202
+2025-08-23 03:54:19.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3202
+2025-08-23 03:54:24.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3202
+2025-08-23 03:54:29.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3202
+2025-08-23 03:54:34.830 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3202

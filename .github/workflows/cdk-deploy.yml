@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      WORKING_DIR: solution-files-c9/python
+      WORKING_DIR: solution/python
       AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
 
     steps:
