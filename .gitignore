@@ -23,3 +23,5 @@ cdk.out
 
 # VSCode settings
 .vscode/
+
+.sagemaker-code-editor-server-data
