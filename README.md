@@ -5,7 +5,7 @@ A serverless image recognition system built on AWS that automatically processes 
 ## 🏗️ Architecture
 
 This system consists of three main components deployed as separate CDK stacks:
-![AWS Architecture Diagram](image/final.png)
+![AWS Architecture Diagram](image/diagram.drawio.png)
 
 ### 1. API Stack (`APIStack`)
 - **S3 Bucket**: Stores uploaded images
@@ -13,6 +13,7 @@ This system consists of three main components deployed as separate CDK stacks:
 - **Lambda Function**: Downloads images from URLs and uploads to S3
 - **SQS Queue**: Receives notifications when images are uploaded
 - **SNS Topic**: Publishes upload events
+ - **Cognito User Pool & Client**: Optional authentication for API endpoints
 
 ### 2. Recognition Stack (`RekognitionStack`)
 - **Lambda Function**: Processes images using Amazon Rekognition
@@ -66,18 +67,49 @@ This system consists of three main components deployed as separate CDK stacks:
    cdk bootstrap
    ```
 
+## 🔐 AWS CLI configuration (run before deployment)
+
+Ensure your AWS CLI is configured so CDK can deploy resources to your account.
+
+1. Verify AWS CLI is installed:
+   ```bash
+   aws --version
+   ```
+
+2. Configure credentials and default region (interactive):
+   ```bash
+   aws configure
+   ```
+   - Enter your Access Key ID, Secret Access Key, default region (e.g., `us-east-1`), and output format (e.g., `json`).
+
+   Or configure a named profile:
+   ```bash
+   aws configure --profile my-profile
+   ```
+
+3. Validate your identity:
+   ```bash
+   aws sts get-caller-identity
+   ```
+
+4. (Optional) Use the profile with CDK:
+   - Set an environment variable (restart shell after): `setx AWS_PROFILE my-profile`
+   - Or pass the profile flag on each command: `cdk deploy --profile my-profile`
+
 ## 🛠️ Deployment
 
 1. **Deploy all stacks**:
    ```bash
    cdk deploy --all
+   # or with a named profile
+   cdk deploy --all --profile my-profile
    ```
 
 2. **Deploy individual stacks** (if needed):
    ```bash
-   cdk deploy APIStack
-   cdk deploy IntegrationStack
-   cdk deploy RekognitionStack
+   cdk deploy APIStack --profile my-profile
+   cdk deploy IntegrationStack --profile my-profile
+   cdk deploy RekognitionStack --profile my-profile
    ```
 
 ## 📋 Configuration
