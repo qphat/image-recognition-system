@@ -1,8 +1,0 @@
-{
-   "extensions.autoUpdate": false,
-   "extensions.openNotebookData": {
-      "notebookKey": null,
-      "clusterId": null,
-      "region": null
-   }
-}
