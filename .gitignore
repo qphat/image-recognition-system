@@ -17,3 +17,9 @@ cdk.out
 ./cdk
 
 .ssh/
+
+# AWS CDK
+.cdk/
+
+# VSCode settings
+.vscode/

@@ -47,7 +47,7 @@ This system consists of three main components deployed as separate CDK stacks:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:qphat/image-recognition-system.git
    cd image-recognition-system
    ```
 
