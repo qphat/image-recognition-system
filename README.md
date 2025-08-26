@@ -242,21 +242,24 @@ To update the system:
    cdk deploy --all
    ```
 
-## 📄 License
+## 🧰 CI/CD (GitHub Actions)
 
-This project is part of an AWS workshop and is provided for educational purposes.
+This repo includes a GitHub Actions workflow at `.github/workflows/cdk-deploy.yml` that:
 
-## 🤝 Contributing
+- Runs CDK synth on pull requests
+- Deploys all stacks to AWS on pushes to `main`
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+### Setup
 
-## 📞 Support
+1. Create an AWS IAM role for GitHub OIDC with trust policy for your repo, and grant permissions to deploy CDK (e.g., `AdministratorAccess` for workshops; scope down for prod).
+2. In your GitHub repo settings → Variables → Actions, add:
+   - `AWS_ROLE_TO_ASSUME`: ARN of the IAM role to assume
+   - Optional `AWS_REGION`: e.g., `us-east-1`
 
-For issues and questions:
-- Check CloudWatch logs for detailed error information
-- Review AWS service documentation
-- Contact your AWS administrator for IAM permission issues
+The workflow uses OIDC (no long-lived secrets). On `main`, it runs:
+```bash
+cd solution-files-c9/python
+cdk synth
+cdk deploy --all --require-approval never
+```
+

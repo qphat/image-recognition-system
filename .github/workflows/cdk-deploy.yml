@@ -1,0 +1,68 @@
+name: CDK Deploy
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  deploy:
+    name: Deploy CDK Stack
+    runs-on: ubuntu-latest
+
+    env:
+      WORKING_DIR: solution/python
+      AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Setup Node.js (CDK requires Node)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # 3. Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 4. Install dependencies
+      - name: Install dependencies
+        working-directory: ${{ env.WORKING_DIR }}
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+          npm install -g aws-cdk
+
+      # 5. Configure AWS credentials (OIDC)
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      # 6. Bootstrap CDK (safe if already bootstrapped)
+      - name: CDK Bootstrap
+        working-directory: ${{ env.WORKING_DIR }}
+        run: cdk bootstrap || true
+
+      # 7. Synthesize CDK
+      - name: CDK Synth
+        working-directory: ${{ env.WORKING_DIR }}
+        run: cdk synth
+
+      # 8. Deploy CDK
+      - name: CDK Deploy
+        working-directory: ${{ env.WORKING_DIR }}
+        run: cdk deploy --all --require-approval never
